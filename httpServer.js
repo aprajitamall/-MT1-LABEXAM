@@ -160,9 +160,11 @@ else {
     });
 
     res.end("404 - Route Not Found");
+
 }
 
-});
+}
+);
 server.listen(3000, () => {
     console.log("HTTP Server running at http://localhost:3000");
 });
